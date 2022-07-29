@@ -380,6 +380,13 @@ vite@^3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
+vue-dragscroll@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/vue-dragscroll/-/vue-dragscroll-4.0.2.tgz#f5c987d16a5633bce5bc34e61b4430b16a86d4b0"
+  integrity sha512-6/lChGlqJW+KtnGgCWgNxRZuBBPqycqEaLUzNv1pQViPb95qlFqazMuPWbPDFzHxtEy153LqOESKlCOj4hhBCg==
+  dependencies:
+    vue "^3.2.37"
+
 vue-tsc@^0.38.4:
   version "0.38.9"
   resolved "https://registry.yarnpkg.com/vue-tsc/-/vue-tsc-0.38.9.tgz#9e945937667f704325328db8af1cc6bc7314b85e"
