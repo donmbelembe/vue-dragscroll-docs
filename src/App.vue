@@ -5,7 +5,7 @@ import { ref } from 'vue';
 let drag= ref(true)
 let oh= ref(false)
 
-const eventTrigged = function(name, e?) {
+const eventTrigged = function(name: string, e?: any) {
   console.log(name);
   if (name == 'dragscrollmove') {
     console.log(e.detail)
